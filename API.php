@@ -2,14 +2,16 @@
 
 function prosjecnaVrijednost($arr)
 {
+	$arr2 = array_map(fn($val) => explode(' ', $val), $arr);
+
 	$sum = 0;
 
-	foreach($arr as $obj)
+	foreach($arr2 as $obj)
 	{
 		$sum += $obj[1];
 	}
 
-	return $sum / count($arr);
+	return $sum / count($arr2);
 }
 
 
