@@ -1,11 +1,6 @@
 # Recept api
  API za dohvaćanje i uređivanje recepata.
 
- Indeks:
- 1)Opis datoteka
-
-
-
  1) OPIS DATOTEKA
 
     classes.php
